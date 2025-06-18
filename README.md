@@ -1,6 +1,6 @@
 # aayush-soam-internship
 Machine learning project (Week 1) by Aayush Soam: Cleaning greenhouse gas emission data for Edunet foundation x Microsoft 
-<details> <summary><b>Click to expand Terminal Output</b></summary>
+<details> <summary><b>⭐⭐Click to expand Terminal Output⭐⭐</b></summary>
 ## Sample Output
 
 ```bash
