@@ -33,7 +33,7 @@ for year in years:
 df = pd.concat(all_data, ignore_index=True)
 print(f"\n Final dataset shape: {df.shape}")
 print(df.head())
-print("\n🧹 Missing Values Summary:")
+print("\n  Missing Values Summary:")
 print(df.isnull().sum())
 
 # Remove empty column if exists
