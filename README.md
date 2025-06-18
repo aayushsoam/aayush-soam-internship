@@ -51,4 +51,4 @@ dtype: int64
 
 Cleaned data saved as 'cleaned_ghg_data.csv'
 
-[cleaned_ghg_data.csv](https://github.com/user-attachments/files/20802185/cleaned_ghg_data.csv)
+https://github.com/user-attachments/files/20802185/cleaned_ghg_data.csv
