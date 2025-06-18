@@ -51,6 +51,4 @@ dtype: int64
 
 Cleaned data saved as 'cleaned_ghg_data.csv'
 
-## 📥 Cleaned Data Download
-
-[![Download CSV](https://img.shields.io/badge/-Download%20cleaned_ghg_data.csv-blue?style=for-the-badge&logo=github)](https://github.com/user-attachments/files/20802185/cleaned_ghg_data.csv)
+> ### 🔗 **[Download the Cleaned Data CSV here!](https://github.com/user-attachments/files/20802185/cleaned_ghg_data.csv) 📥**
