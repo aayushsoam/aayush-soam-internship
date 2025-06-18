@@ -1,8 +1,10 @@
 # aayush-soam-internship
 Machine learning project (Week 1) by Aayush Soam: Cleaning greenhouse gas emission data for Edunet foundation x Microsoft 
 <details> <summary><b>Click to expand Terminal Output</b></summary>
-python weak1_analysis.py
+## Sample Output
 
+```bash
+python weak1_analysis.py
 Processing year: 2010
   Commodity Shape: (1576, 15) | Industry Shape: (1580, 15)
 Processing year: 2011
