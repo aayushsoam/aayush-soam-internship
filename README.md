@@ -1,5 +1,5 @@
 # aayush-soam-internship
-Machine learning project (Week 1) by Aayush Soam: Cleaning greenhouse gas emission data for 🌐Edunetfoundation x Microsoft
+Machine learning project (Week 1,week2) by Aayush Soam: Cleaning greenhouse gas emission data for 🌐Edunetfoundation x Microsoft
 <details> <summary><b>⭐⭐Click to expand Terminal Output⭐⭐</b></summary>
 ## Sample Output
 
@@ -51,9 +51,9 @@ dtype: int64
 
 Cleaned data saved as 'cleaned_ghg_data.csv'
 
-> ### 🔗 **[Download the Cleaned Data CSV here!](https://github.com/user-attachments/files/20802185/cleaned_ghg_data.csv) 📥**
+ ### 🔗 **[Download the Cleaned Data CSV here!](https://github.com/user-attachments/files/20802185/cleaned_ghg_data.csv) 📥**
 
-python weak2.py
+#python weak2.py
 
 Dataset Info:
 <class 'pandas.core.frame.DataFrame'>
