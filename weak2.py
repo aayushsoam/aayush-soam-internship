@@ -25,13 +25,13 @@ source_map = {'Commodity': 0, 'Industry': 1}
 df['Source'] = df['Source'].map(source_map)
 
 # ------------------ Overview ------------------
-print("\n✅ Dataset Info:")
+print("\n Dataset Info:")
 print(df.info())
 
-print("\n🧮 Null Values:")
+print("\n Null Values:")
 print(df.isnull().sum())
 
-print("\n📊 Summary Stats:")
+print("\n Summary Stats:")
 print(df.describe().T)
 
 # ------------------ Target Variable Distribution ------------------
@@ -77,8 +77,8 @@ df.drop(columns=['Name', 'Code', 'Year'], inplace=True)
 X = df.drop(columns=['Supply Chain Emission Factors with Margins'])
 y = df['Supply Chain Emission Factors with Margins']
 
-print("\n📐 Feature shape:", X.shape)
-print("\n🎯 Target Preview:")
+print("\n Feature shape:", X.shape)
+print("\n Target Preview:")
 print(y.head())
 
 # ------------------ Univariate Count Plot: Substance ------------------
