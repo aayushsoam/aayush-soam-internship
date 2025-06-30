@@ -126,3 +126,21 @@ Target Preview:
 4    0.740
 Name: Supply Chain Emission Factors with Margins, dtype: float64
 
+
+
+
+FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.       
+
+  sns.barplot(
+ Features normalized.
+ Train/Test Split Done: (17673, 10) (4419, 10)
+
+ Model Comparison:
+               Model           MSE      RMSE        R2
+0      Random Forest  3.774615e-05  0.006144  0.999328
+1  Linear Regression  7.881378e-08  0.000281  0.999999
+
+ Linear Regression model & scaler saved successfully!
+
