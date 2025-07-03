@@ -1,7 +1,86 @@
 # aayush-soam-internship
-Machine learning project (Week 1,week2) by Aayush Soam: Cleaning greenhouse gas emission data for 🌐Edunetfoundation x Microsoft
-<details> <summary><b>⭐⭐Click to expand Terminal Output⭐⭐</b></summary>
+# 🌍 Greenhouse Gas Emission Prediction using Machine Learning
+
+
 ## Sample Output
+
+
+This project predicts greenhouse gas (GHG) emission factors of U.S. industries and commodities using machine learning.  
+It helps identify high-emitting sectors using historical supply chain data.
+
+---
+
+## 🎯 Learning Objectives
+
+- Clean real-world supply chain emission data
+- Perform Exploratory Data Analysis (EDA)
+- Encode and normalize features
+- Train and compare ML models
+- Save and use the best-performing model
+
+---
+
+## 🛠️ Tools and Technologies Used
+
+- Python (pandas, matplotlib, seaborn, scikit-learn)
+- Jupyter Notebook / VS Code
+- joblib (model saving)
+- openpyxl (Excel file handling)
+
+---
+
+## 💡 Problem Statement
+
+To analyze and predict supply chain greenhouse gas emission factors using historical datasets, assisting industries in evaluating and reducing their environmental impact.
+
+---
+
+## 🔍 Methodology
+
+1. Load and clean Excel dataset
+2. Encode categorical features (`Substance`, `Unit`, `Source`)
+3. Visualize data using countplots and heatmaps
+4. Normalize features using `StandardScaler`
+5. Split data into train/test sets
+6. Train two models: Random Forest & Linear Regression
+7. Evaluate using RMSE and R² score
+8. Save the best model (`Linear Regression`) for future use
+
+---
+
+## ✅ Model Performance Summary
+
+| Model                  | RMSE     | R² Score     |
+|------------------------|----------|--------------|
+| Random Forest (Default)| 0.00605  | 0.99935 ✅   |
+| Linear Regression      | 0.00028  | 0.99999 ✅   |
+| Random Forest (Tuned)  | 0.00589  | 0.99938 ✅  |
+
+→ **Linear Regression performed best and was selected.**
+
+---
+
+## 🔧 How to Run This Project
+
+```bash
+# 1. Install Required Libraries
+pip install pandas matplotlib seaborn scikit-learn joblib openpyxl
+
+# 2. Download the Excel data file
+#    Example: SupplyChainEmissionFactorsforUSIndustriesCommodities.xlsx
+
+# 3. Place it in the same folder as your notebook
+
+# 4. Open the notebook (e.g., Aayushsoam(ghg-emission-prediction).ipynb)
+
+# 5. Run all cells one by one (Top to Bottom)
+
+# 6. Cleaned CSV will be generated: cleaned_ghg_data.csv
+
+# 7. Model and scaler will be saved in /models/ folder
+
+exit
+
 
 ```bash
 python weak1_analysis.py
