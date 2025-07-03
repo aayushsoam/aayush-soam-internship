@@ -3,7 +3,7 @@
 
 ## 📬 Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-AyushSoam-blue?style=flat-square&logo=linkedin)]([https://www.linkedin.com/in/ayushsoam](https://www.linkedin.com/in/aayush-soam-3372502a5/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AyushSoam-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/aayush-soam-3372502a5/)
 [![GitHub](https://img.shields.io/badge/GitHub-ayushsoam-181717?style=flat-square&logo=github)](https://github.com/aayushsoam)
 [![Gmail](https://img.shields.io/badge/Gmail-aayushsoam-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:thakurrajeevsoam@gmail.coom)
 
