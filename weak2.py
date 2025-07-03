@@ -127,6 +127,6 @@ print("\n📊 Model Comparison:")
 print(comparison_df)
 
 # Save the Best Model (Linear Regression)
-joblib.dump(LR_model, 'models/LR_model.pkl')
-joblib.dump(scaler, 'models/scaler.pkl')
+joblib.dump(LR_model, 'LR_model.pkl')
+joblib.dump(scaler, 'scaler.pkl')
 print("\n Linear Regression model & scaler saved successfully!")
